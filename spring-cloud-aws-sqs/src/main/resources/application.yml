@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    sqs:
+      queue:
+        url:
+    region:
+      static: ap-northeast-2
+    credentials:
+      instance-profile: true
+      accessKey:
+      secretKey:
+    stack:
+      auto: false
